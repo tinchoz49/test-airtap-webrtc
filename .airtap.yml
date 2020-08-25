@@ -1,0 +1,8 @@
+providers:
+  - airtap-playwright
+
+server: 'npm run server'
+
+browsers:
+  - name: chromium
+  - name: ff

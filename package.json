@@ -1,0 +1,31 @@
+{
+  "name": "test-airtap-webrtc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm run server & budo index.js --live",
+    "test": "airtap index.js",
+    "server": "discovery-swarm-webrtc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tinchoz49/test-airtap-webrtc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tinchoz49/test-airtap-webrtc/issues"
+  },
+  "homepage": "https://github.com/tinchoz49/test-airtap-webrtc#readme",
+  "devDependencies": {
+    "airtap": "github:airtap/airtap",
+    "airtap-playwright": "^1.0.0",
+    "budo": "^11.6.4",
+    "tape": "^5.0.1"
+  },
+  "dependencies": {
+    "@geut/discovery-swarm-webrtc": "^4.0.0"
+  }
+}
