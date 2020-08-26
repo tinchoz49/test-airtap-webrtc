@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "npm run server & budo index.js --live",
-    "test": "airtap index.js",
+    "test": "airtap index.js --loopback 127.0.0.1",
     "server": "discovery-swarm-webrtc"
   },
   "repository": {
